@@ -47,6 +47,6 @@
 }
 
 .explore-menu-item .active {
-    border: 2px solid tomato;
-    pa
+    border: 5px solid tomato;
+    padding: 2px;
 }
