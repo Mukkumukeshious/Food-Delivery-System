@@ -8,7 +8,10 @@ const Header = () => {
             <h2>Place Order Here</h2>
             <p>Food delivery plays a crucial role in modern life by providing convenience, saving time, 
                 and supporting local businesses. It allows people to enjoy restaurant-quality meals at home,
-                 making it especially valuable for busy individuals, elderly people, or those with limited mobility. </p>
+                 making it especially valuable for busy individuals, elderly people, or those with limited mobility.
+           </p>
+           <button>View Menu</button>
+
         </div>
       
     </div>

@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Home.css'
 import Header from '../../component/Header/Header'
+import ExploreMenu from '../../component/ExploreMenu/ExploreMenu'
 
 const Home = () => {
+  const [category, setCategory] = useState("All")
   return (
     <div>
-        <h1>Hello</h1>
     <Header/>
+    <ExploreMenu category={category} setCategory={setCategory}/>
       
     </div>
   )

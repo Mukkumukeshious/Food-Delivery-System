@@ -1,7 +1,39 @@
 .header{
-    height: 30vw;
+    height: 40vw;
     margin: 30px auto;
     background: url('/header_img.png') no-repeat;
     background-size: contain;
+    position: relative;
+
+}
+
+.header-contain {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    bottom: 20%;
+    left: 5vw;
+    gap: 10px;
+    animation: fadeIn 3s ;
+
+
+}
+.header-contain h2 {
+    font-weight: bold;
+    color: white;
+}
+.header-contain p {
+    font-weight: 100;
+    color: white;
+}
+
+.header-contain button {
+    border: none;
+    width: 16%;
+    padding: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    
 
 }
