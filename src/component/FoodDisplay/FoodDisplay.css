@@ -1,5 +1,12 @@
 .food-display {
-    margin-top: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: rgb(85, 85, 92);
+}
+
+.food-display h2{
+    padding: 20px;
+
 }
 .food-item {
     display: grid;
